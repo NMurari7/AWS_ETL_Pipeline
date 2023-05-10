@@ -24,7 +24,7 @@ To run the ETL pipeline, follow these steps:
 
 Setup S3 Bucket: Create an S3 bucket to store the raw data and the processed data.
 
-Setup Lambda Function: Create an AWS Lambda function with the required libraries such as Pandas, Boto3, and StringIO. The Lambda function should be configured to trigger on an S3 event.
+Setup Lambda Function: Create an AWS Lambda function with the required libraries such as Pandas, Boto3, and StringIO. The Lambda function should be configured. The layer should be added to function to use pandas.
 
 Configure Glue Crawler: Create a Glue Crawler to catalog the processed data in S3.
 
