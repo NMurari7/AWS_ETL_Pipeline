@@ -1,5 +1,8 @@
 # AWS_ETL_Pipeline
 
+<img width="569" alt="Architecture" src="https://github.com/NMurari7/AWS_ETL_Pipeline/assets/70143030/56e84fe7-b379-44a9-ab09-0f4ccb439167">
+
+
 ## Overview
 The project uses an AWS Lambda function to preprocess and convert the raw data stored in S3 into a star schema. The Lambda function uses Pandas, Boto3, and StringIO libraries for data processing and S3 storage.
 
