@@ -1,12 +1,9 @@
 # AWS_ETL_Pipeline
 
-<img width="569" alt="Architecture" src="https://github.com/NMurari7/AWS_ETL_Pipeline/assets/70143030/56e84fe7-b379-44a9-ab09-0f4ccb439167">
-
-
 ## Overview
-The project uses an AWS Lambda function to preprocess and convert the raw data stored in S3 into a star schema. The Lambda function uses Pandas, Boto3, and StringIO libraries for data processing and S3 storage.
+Utilizes AWS Lambda, S3, Glue, Athena, and QuickSight to process, transform, and visualize data in a scalable and serverless environment. The main objective is to preprocess raw data, convert it into a star schema format, and store it in Amazon S3, where it can be queried and analyzed using Athena. Finally, Amazon QuickSight is used for data visualization and reporting.
 
-The processed data is then stored back in S3 using Glue Crawler catalog. This makes the data queryable using Athena, which can be used to create a QuickSight dashboard for data visualization.
+<img width="569" alt="Architecture" src="https://github.com/NMurari7/AWS_ETL_Pipeline/assets/70143030/56e84fe7-b379-44a9-ab09-0f4ccb439167">
 
 ## Steps
 Extract Data: The raw data is stored in S3 and can be in any format such as CSV, JSON, or Parquet.
