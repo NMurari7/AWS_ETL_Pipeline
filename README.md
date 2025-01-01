@@ -1,6 +1,5 @@
 # AWS_ETL_Pipeline
 
-## Overview
 Utilizes AWS Lambda, S3, Glue, Athena, and QuickSight to process, transform, and visualize data in a scalable and serverless environment. The main objective is to preprocess raw data, convert it into a star schema format, and store it in Amazon S3, where it can be queried and analyzed using Athena. Finally, Amazon QuickSight is used for data visualization and reporting.
 
 <img width="569" alt="Architecture" src="https://github.com/NMurari7/AWS_ETL_Pipeline/assets/70143030/56e84fe7-b379-44a9-ab09-0f4ccb439167">
